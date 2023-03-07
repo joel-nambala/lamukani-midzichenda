@@ -1,0 +1,34 @@
+﻿.nav {
+    background-color: #f7f7f7;
+    padding: 1.8rem 2rem;
+    transition: all ease .4s;
+}
+
+.nav-logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 0 2rem #999;
+}

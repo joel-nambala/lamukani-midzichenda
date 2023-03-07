@@ -1,0 +1,48 @@
+﻿.feature{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding: 6rem 0;
+}
+
+.feature-header {
+    background-color: #ddd;
+}
+
+.feature-img{
+    width: 100%;
+}
+
+.feature-header{
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.feature-sub-header{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+
+.feature-text{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.quote{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.quote-text{
+    margin-bottom: 2rem;
+}
+
+.quote-title{
+    font-weight: 700;
+    align-self: flex-end;
+}

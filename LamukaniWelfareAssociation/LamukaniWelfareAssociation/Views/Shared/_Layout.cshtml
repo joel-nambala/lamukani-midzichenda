@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Lamukani Midzichenda Welfare Association</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/navigation.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/features.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LamukaniWelfareAssociation.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container flex">
+                <a class="nav-logo" asp-area="" asp-controller="Home" asp-action="Index">LOGO</a>
+                <ul class="nav-list">
+                   <li class="nav-item">
+                      <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                   </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="App" asp-action="Features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="App" asp-action="Campaign">Campaign</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="App" asp-action="News">News</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer-container">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-card">
+                    <h2 class="footer-card-title">About us</h2>
+                    <ul class="footer-card-list">
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                About us
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Our team
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Volunteer engagement
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Communications
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Services
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h2 class="footer-card-title">Discover</h2>
+                    <ul class="footer-card-list">
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Mission
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Where we are headed
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                History
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Board and staff
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Join our team
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h2 class="footer-card-title">Support</h2>
+                    <ul class="footer-card-list">
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Terms of use
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Privacy policy
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Donor privacy policy
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Internship
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Copyright notice
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h2 class="footer-card-title">News</h2>
+                    <ul class="footer-card-list">
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Press room
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Effectiveness & results
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Advisory panel
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Endorsements
+                            </a>
+                        </li>
+                        <li class="footer-card-item">
+                            <a href="/" class="footer-card-link">
+                                Annual report
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-container">
+                <p class="footer-text">Copyright &copy; <span class="copy-year"></span>, Lamukani Midzichenda. All rights reserved.</p>
+                <p class="footer-text">Prepared by <a href="https://joelnambala.netlify.app" target="_blank"><code>Joel Nambala</code></a>.</p>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="~/js/script.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
