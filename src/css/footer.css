@@ -1,0 +1,47 @@
+.footer {
+  background-color: #2b2a2a;
+  padding: 4rem 0;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.footer-card-title {
+  color: #eee;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.footer-card-list {
+  list-style: none;
+}
+
+.footer-card-item {
+  font-size: 1.6rem;
+  padding-top: 1rem;
+}
+
+.footer-card-item:not(:last-child) {
+  padding-bottom: 1rem;
+  border-bottom: 0.1px solid #4f4d4d;
+}
+
+.footer-card-link {
+  text-decoration: none;
+  color: #888888;
+  text-transform: capitalize;
+}
+
+.footer-card-link:hover {
+  color: #fff;
+}
+
+.copy-text {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  margin-top: 3rem;
+}

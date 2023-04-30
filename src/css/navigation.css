@@ -1,0 +1,31 @@
+.nav {
+  background-color: #fff;
+  padding: 1.8rem 2rem;
+  position: sticky;
+  top: 0;
+}
+
+.flex-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 4rem;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.8rem;
+}

@@ -1,0 +1,58 @@
+.campaign-header {
+  margin: 6rem 0;
+}
+
+.campaign-header-title {
+  font-size: 4rem;
+  margin-bottom: 0.6rem;
+  text-align: center;
+}
+
+.campaign-header-text {
+  font-size: 1.6rem;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.campaign-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+
+.campaign-card {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 2rem;
+}
+
+.campaign-card-icon i {
+  font-size: 1.8rem;
+  color: #e23535;
+}
+
+.campaign-card-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.campaign-card-text {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.section-cause {
+  background-color: rgb(255, 255, 255);
+  padding: 4rem 0;
+}
+
+.section-cause-title {
+  text-align: center;
+}
+
+.sponsor-title-1 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+}

@@ -1,0 +1,92 @@
+.donations-head {
+  font-size: 2.6rem;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  color: #444;
+}
+
+.donations-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.donations-group-1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.donations-group-method {
+  display: flex;
+  gap: 8rem;
+}
+
+table {
+  width: 100%;
+}
+
+table:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+table tr {
+  display: flex;
+  gap: 3rem;
+}
+
+.donations-title {
+  display: flex;
+  align-items: flex-start;
+  width: 20rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#message {
+  font-family: inherit;
+  border: 0.1rem #444 solid;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  background-color: #f7f7f7;
+}
+
+#message:focus {
+  outline: none;
+}
+
+#checkbox {
+  display: inline-block;
+  margin-right: 0.6rem;
+}
+
+#amount {
+  border: 1px solid #444;
+  outline: none;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.4rem;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+#select {
+  width: 100%;
+  padding: 0.4rem 0.8rem;
+  font-family: inherit;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.donations-group-reccur {
+  width: 72rem;
+}
