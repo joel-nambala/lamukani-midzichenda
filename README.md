@@ -41,4 +41,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Author
 
-This website was created with ♥️ by [Joel Nambala](https://joelnambala.netlify.app). Visit my portfolio to know more
+This website was created with ♥️ by [Joel Nambala](https://joelnambala.netlify.app). Visit my portfolio to know more.
