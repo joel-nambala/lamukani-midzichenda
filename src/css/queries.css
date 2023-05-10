@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1024px) {
+  .about-cards {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+  }
+
+  .cause-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  .campaign-cards {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-text {
+    width: 100%;
+  }
+
+  .sponsor-child {
+    flex-wrap: wrap;
+    padding: 4rem;
+  }
+
+  .donator-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .campaign-cards {
+    grid-template-columns: 1fr !important;
+  }
+
+  .campaign-card {
+    width: 100% !important;
+  }
+
+  .news-content {
+    display: block !important;
+  }
+
+  .news-aside {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .flex-nav {
+    display: block;
+  }
+
+  .logo {
+    margin-bottom: 2rem;
+  }
+
+  .about-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cause-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cta-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cta-img {
+    height: 26rem;
+    width: 100%;
+  }
+
+  .donator-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nav-list {
+    gap: 1rem;
+  }
+
+  .sponsor-img {
+    width: 100%;
+  }
+}

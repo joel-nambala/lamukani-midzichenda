@@ -1,0 +1,19 @@
+.about-title {
+  font-size: 3.4rem;
+  margin-bottom: 0.2rem;
+  text-transform: capitalize;
+}
+
+.about-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.about-text {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.about-img {
+  width: 100%;
+}

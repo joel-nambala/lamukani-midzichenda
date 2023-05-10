@@ -7,6 +7,8 @@ import './css/footer.css';
 import './css/queries.css';
 import './css/campaign.css';
 import './css/donations.css';
+import './css/news.css';
+import './css/features.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
