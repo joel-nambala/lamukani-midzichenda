@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d48c162d.css",
+    "main.js": "/static/js/main.159340f1.js",
+    "static/js/787.5103fb07.chunk.js": "/static/js/787.5103fb07.chunk.js",
+    "static/media/hero1.png": "/static/media/hero1.e2944e8cccca2285b2a8.png",
+    "static/media/wamalwa.jpg": "/static/media/wamalwa.0aab25f2de495d5ce628.jpg",
+    "static/media/charity-worker.jpg": "/static/media/charity-worker.4a96fa53e989044fb5d5.jpg",
+    "static/media/homeless.jpg": "/static/media/homeless.77f9a26ca3ee9c01b98d.jpg",
+    "static/media/news-disable.jpg": "/static/media/news-disable.c63e17343c3132e85526.jpg",
+    "static/media/halima.jpg": "/static/media/halima.d6a9b9bc04b996bf69eb.jpg",
+    "static/media/disabledstudentinlibrary1.jpg": "/static/media/disabledstudentinlibrary1.db812462c3a0e682a3dc.jpg",
+    "static/media/disability-and-work.jpg": "/static/media/disability-and-work.795ed0ed8c9581e47e3b.jpg",
+    "static/media/big-siz-with-child.jpg": "/static/media/big-siz-with-child.04bf554ceacbff735d09.jpg",
+    "static/media/elderlycare.jpg": "/static/media/elderlycare.917de92b8b7421b80960.jpg",
+    "static/media/cooper.jpg": "/static/media/cooper.fd67fb034c79d852325b.jpg",
+    "static/media/motheranddaughter.jpg": "/static/media/motheranddaughter.489038821c20b3648640.jpg",
+    "static/media/sadchild.jpg": "/static/media/sadchild.58a6e49b22e7ac970540.jpg",
+    "static/media/failure.jpg": "/static/media/failure.c22bc6c6d2472d5f0ed2.jpg",
+    "static/media/kimani.jpg": "/static/media/kimani.c48653e39aee364689a7.jpg",
+    "static/media/news-care.jpg": "/static/media/news-care.3034f2a32e774e43322b.jpg",
+    "static/media/hellen-potter.jpg": "/static/media/hellen-potter.b66620268188e82ab4fd.jpg",
+    "static/media/billy.jpg": "/static/media/billy.1ebb4d96ccaf13bb8fde.jpg",
+    "static/media/emma-watson.jpg": "/static/media/emma-watson.ce3a3830db2a5205e24b.jpg",
+    "static/media/nancie-smith.jpg": "/static/media/nancie-smith.03a80fefa39ce94c2996.jpg",
+    "index.html": "/index.html",
+    "main.d48c162d.css.map": "/static/css/main.d48c162d.css.map",
+    "main.159340f1.js.map": "/static/js/main.159340f1.js.map",
+    "787.5103fb07.chunk.js.map": "/static/js/787.5103fb07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d48c162d.css",
+    "static/js/main.159340f1.js"
+  ]
+}
