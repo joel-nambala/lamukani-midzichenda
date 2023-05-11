@@ -34,7 +34,10 @@ const News = function () {
                     ultrices ipsum non mattis pharetra. Integer laoreet non
                     felis sit amet...
                   </p>
-                  <a href="/" className="news-card-link">
+                  <a
+                    href="/disability-is-not-the-end-of-your-career"
+                    className="news-card-link"
+                  >
                     Read More
                   </a>
                 </div>
@@ -63,7 +66,7 @@ const News = function () {
                     ultrices ipsum non mattis pharetra. Integer laoreet non
                     felis sit amet...
                   </p>
-                  <a href="/" className="news-card-link">
+                  <a href="/hope-for-everyone" className="news-card-link">
                     Read More
                   </a>
                 </div>
@@ -92,7 +95,10 @@ const News = function () {
                     ultrices ipsum non mattis pharetra. Integer laoreet non
                     felis sit amet...
                   </p>
-                  <a href="/" className="news-card-link">
+                  <a
+                    href="/give-love-to-older-people"
+                    className="news-card-link"
+                  >
                     Read More
                   </a>
                 </div>
@@ -119,7 +125,10 @@ const News = function () {
                     ultrices ipsum non mattis pharetra. Integer laoreet non
                     felis sit amet...
                   </p>
-                  <a href="/" className="news-card-link">
+                  <a
+                    href="/jobs-for-disabled-people"
+                    className="news-card-link"
+                  >
                     Read More
                   </a>
                 </div>
@@ -130,32 +139,30 @@ const News = function () {
             <h2 className="news-aside-title">Recent posts</h2>
             <ul className="posts">
               <li className="posts-item">
-                <a className="posts-link" href="/">
+                <a
+                  className="posts-link"
+                  href="/disability-is-not-the-end-of-your-career"
+                >
                   Disability is not the end of your career
                 </a>
               </li>
               <li className="posts-item">
-                <a className="posts-link" href="/">
-                  Disability is not the end of your career
-                </a>
-              </li>
-              <li className="posts-item">
-                <a className="posts-link" href="/">
+                <a className="posts-link" href="/hope-for-everyone">
                   There is Hope for everyone
                 </a>
               </li>
               <li className="posts-item">
-                <a className="posts-link" href="/">
+                <a className="posts-link" href="/give-love-to-older-people">
                   Learn more about our Elderly Support Program
                 </a>
               </li>
               <li className="posts-item">
-                <a className="posts-link" href="/">
+                <a className="posts-link" href="/jobs-for-disabled-people">
                   Jobs for disabled people
                 </a>
               </li>
               <li className="posts-item">
-                <a className="posts-link" href="/">
+                <a className="posts-link" href="/water-changes-everything">
                   Water changes everything
                 </a>
               </li>

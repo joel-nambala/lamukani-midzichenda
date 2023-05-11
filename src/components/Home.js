@@ -38,7 +38,7 @@ const Home = function () {
                 Dignissimos et vel error ipsam at? Consectetur aspernatur
               </p>
               <div className="btn-container">
-                <a href="/features" className="btn card-btn">
+                <a href="/missions" className="btn card-btn">
                   Read More
                 </a>
               </div>
@@ -51,7 +51,7 @@ const Home = function () {
                 Dignissimos et vel error ipsam at? Consectetur aspernatur
               </p>
               <div className="btn-container">
-                <a href="/features" className="btn card-btn">
+                <a href="/events" className="btn card-btn">
                   Read More
                 </a>
               </div>
@@ -64,7 +64,7 @@ const Home = function () {
                 Dignissimos et vel error ipsam at? Consectetur aspernatur
               </p>
               <div className="btn-container">
-                <a href="/features" className="btn card-btn">
+                <a href="/support" className="btn card-btn">
                   Read More
                 </a>
               </div>
@@ -77,7 +77,7 @@ const Home = function () {
                 Dignissimos et vel error ipsam at? Consectetur aspernatur
               </p>
               <div className="btn-container">
-                <a href="/features" className="btn card-btn">
+                <a href="/volunteer" className="btn card-btn">
                   Read More
                 </a>
               </div>
@@ -231,7 +231,7 @@ const Home = function () {
                 <div className="donator-details">
                   <h3 className="donator-name">John Kimani</h3>
                   <p className="donator-program">
-                    <a href="/sponsor-orphan-child" className="donator-link">
+                    <a href="/sponsor-an-orphan-child" className="donator-link">
                       Sponsor an orphan child
                     </a>
                   </p>
@@ -250,7 +250,7 @@ const Home = function () {
                       href="/child-protection-program"
                       className="donator-link"
                     >
-                      Child protection prgram
+                      Child protection program
                     </a>
                   </p>
                   <div className="donator-labels">

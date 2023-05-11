@@ -273,7 +273,7 @@ const Campaign = function () {
                 <div className="donator-details">
                   <h3 className="donator-name">John Kimani</h3>
                   <p className="donator-program">
-                    <a href="/sponsor-orphan-child" className="donator-link">
+                    <a href="/sponsor-an-orphan-child" className="donator-link">
                       Sponsor an orphan child
                     </a>
                   </p>
